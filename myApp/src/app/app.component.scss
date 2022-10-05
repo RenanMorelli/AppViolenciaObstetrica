@@ -1,0 +1,71 @@
+//Abaixo dos itens do Menu
+//ion-menu ion-content {
+//    background-color: rgb(255, 255, 255);
+//   }
+  
+  //Topo do Menu
+  ion-menu ion-list-header,
+  ion-menu ion-note {
+    padding-top: 20px; 
+    padding-left: 30px;
+    padding-right: 16px;
+    padding-bottom: 30px;
+  }
+  
+  ion-menu ion-note {
+    margin-bottom: 8px;
+  }
+  
+  ion-note {
+    display: inline-block;
+    font-size: 16px;
+    color: var(--ion-color-medium-shade);
+  }
+  
+  
+  ion-menu ion-content {
+    --padding-bottom: 20px;
+  }
+  
+  ion-menu ion-list {
+    padding: 00px 0 0 0;
+  }
+  
+  ion-menu ion-note {
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ion-menu ion-list#labels-list ion-list-header {
+    margin-bottom: 8px;
+  }
+
+  //Icone do que está selecionado
+  ion-menu ion-item.selected ion-icon {
+   color: rgb(255, 255, 255);
+  }
+  
+  //Icone de todos os menus
+ // ion-menu ion-item ion-icon {
+//    font-size: 24px;
+ //   color: rgb(255, 255, 255);
+ // }
+
+  //A seção selecionada
+ //ion-menu ion-item.selected {
+ //   --background:linear-gradient(to right, rgb(0, 0, 0),rgba(229, 84, 128, 0.726),rgb(221, 144, 136));
+ //   color: rgb(0, 0, 0);
+//  }
+  
+  //Cada seção do menu
+  ion-menu ion-item{
+    margin: 0px;
+  }
+
+  ion-menu ion-item:active{
+    --color:white;
+  }
+
+
+
+

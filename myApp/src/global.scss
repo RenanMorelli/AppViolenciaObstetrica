@@ -1,0 +1,106 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+
+//@import { StatusBar } from '@awesome-cordova-plugins/status-bar/ngx';
+
+
+@font-face{
+  font-family: 'nunito';
+  src: url('./assets/fonts/Nunito-VariableFont_wght.ttf');
+}
+
+ion-menu-button  {
+  color:rgb(255, 255, 255);
+}
+
+ion-title.ios{
+  color:rgb(255, 255, 255)
+}
+
+ion-title.md{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  margin-left: -35px;
+}
+
+
+ion-app{
+  background-color: white;
+}
+
+#paragrafo{
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 1.5em;
+  font-family: nunito;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+ion-toolbar{
+  //--background:linear-gradient(to right, rgba(229, 84, 128, 0.858),rgba(229, 84, 128, 0.858),rgb(252, 165, 156));
+  --background:linear-gradient(to right,rgba(226, 103, 140, 0.858),rgb(248, 174, 166));
+}
+
+#menu{
+  //--background:linear-gradient(to right, rgba(229, 84, 128, 0.858),rgba(229, 84, 128, 0.858),rgb(252, 165, 156));
+  --background:linear-gradient(to right,rgba(226, 103, 140, 0.858),rgb(248, 174, 166));
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  --color-hover:rgb(255, 255, 255);
+  font-family: nunito;
+  font-size:18px; 
+}
+
+#menu.selected{
+  --background:linear-gradient(to right,rgba(227, 104, 141, 0.858),rgb(237, 166, 158));
+  color: rgb(255, 255, 255);
+}
+
+#escritasMenu{
+  font-size:16px; 
+  font-family: nunito;
+  color: white;
+}
+
+#titulo{
+  color: black;
+}
+
+#tituloparagrafo{
+  text-align: center;
+  font-family: nunito;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+ // color: rgb(47, 47, 47);
+ color: rgb(211, 77, 117);
+  font-weight: bold;
+}
