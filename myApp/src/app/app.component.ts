@@ -10,11 +10,12 @@ export class AppComponent {
   public appPages = [
     
     { title: 'O que é?', url: '/oquee', icon: 'help' },
-    { title: 'Quem pratica?', url: '/quempode', icon: 'person' },
+    { title: 'Tipos de VO', url: '/tiposdevo', icon: 'list' }, 
+    { title: 'Quem pratica', url: '/quempode', icon: 'person' },
     { title:  'Meus direitos', url: '/direitos', icon: 'book' },
     { title: 'Exemplos da violência', url: '/exemplos', icon: 'warning' },
-    { title: 'Como me prevenir?', url: '/prevenir', icon: 'hand-left' },
-    { title: 'Contatos', url: '/contatos', icon: 'call' },
+    { title: 'Como me prevenir', url: '/prevenir', icon: 'hand-left' },
+    { title: 'Como Denunciar', url: '/contatos', icon: 'call' },
   ];
   
   constructor(private router : Router, private platform : Platform) {

@@ -11,7 +11,7 @@
 
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
-
+ 
 /* Basic CSS for apps built with Ionic */
 @import "~@ionic/angular/css/normalize.css";
 @import "~@ionic/angular/css/structure.css";
@@ -29,9 +29,14 @@
 //@import { StatusBar } from '@awesome-cordova-plugins/status-bar/ngx';
 
 
+//@font-face{
+ // font-family: 'faberge';
+ // src: url('./assets/fonts/teste/FabergeRegular.ttf');
+//}
+
 @font-face{
   font-family: 'nunito';
-  src: url('./assets/fonts/Nunito-VariableFont_wght.ttf');
+  src: url('./assets/fonts/nunito/Nunito-VariableFont_wght.ttf');
 }
 
 ion-menu-button  {
@@ -39,11 +44,11 @@ ion-menu-button  {
 }
 
 ion-title.ios{
-  color:rgb(255, 255, 255)
+  color:rgb(255, 255, 255);
 }
 
 ion-title.md{
-  color: rgb(255, 255, 255);
+  color: #F5F5EF ;
   font-weight: bold;
   text-align: center;
   margin-left: -35px;
@@ -65,13 +70,13 @@ ion-app{
 }
 
 ion-toolbar{
-  //--background:linear-gradient(to right, rgba(229, 84, 128, 0.858),rgba(229, 84, 128, 0.858),rgb(252, 165, 156));
-  --background:linear-gradient(to right,rgba(226, 103, 140, 0.858),rgb(248, 174, 166));
+  
+  --background:linear-gradient(to right,#DDB7AB,#DDB7AB,#C09984);
 }
 
 #menu{
-  //--background:linear-gradient(to right, rgba(229, 84, 128, 0.858),rgba(229, 84, 128, 0.858),rgb(252, 165, 156));
-  --background:linear-gradient(to right,rgba(226, 103, 140, 0.858),rgb(248, 174, 166));
+ 
+  --background:linear-gradient(to right,#DDB7AB,#DDB7AB,#C09984);
   color: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
   --color-hover:rgb(255, 255, 255);
@@ -80,18 +85,18 @@ ion-toolbar{
 }
 
 #menu.selected{
-  --background:linear-gradient(to right,rgba(227, 104, 141, 0.858),rgb(237, 166, 158));
+  --background:linear-gradient(to right,#EBE4DC ,#DDB7AB,#C09984);
   color: rgb(255, 255, 255);
 }
 
 #escritasMenu{
-  font-size:16px; 
+  font-size:18px; 
   font-family: nunito;
-  color: white;
+  color: #F5F5EF ;
 }
 
 #titulo{
-  color: black;
+  color:#C09984;
 }
 
 #tituloparagrafo{
@@ -101,6 +106,6 @@ ion-toolbar{
   margin-left: 10px;
   margin-right: 10px;
  // color: rgb(47, 47, 47);
- color: rgb(211, 77, 117);
+ color: #C09984;
   font-weight: bold;
 }

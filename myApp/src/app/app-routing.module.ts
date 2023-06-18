@@ -8,6 +8,10 @@ const routes: Routes = [
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },
   {
+    path: 'tiposdevo',
+    loadChildren: () => import('./tiposdevo/tiposdevo.module').then( m => m.TiposdevoPageModule)
+  },
+  {
     path: 'oquee',
     loadChildren: () => import('./oquee/oquee.module').then( m => m.OqueePageModule)
   },
