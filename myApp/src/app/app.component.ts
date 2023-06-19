@@ -11,7 +11,7 @@ export class AppComponent {
     
     { title: 'O que é?', url: '/oquee', icon: 'help' },
     { title: 'Tipos de VO', url: '/tiposdevo', icon: 'list' }, 
-    { title: 'Quem pratica', url: '/quempode', icon: 'person' },
+    { title: 'Quem comete', url: '/quempode', icon: 'person' },
     { title:  'Meus direitos', url: '/direitos', icon: 'book' },
     { title: 'Exemplos da violência', url: '/exemplos', icon: 'warning' },
     { title: 'Como me prevenir', url: '/prevenir', icon: 'hand-left' },
@@ -24,7 +24,7 @@ export class AppComponent {
 
   initializeApp(){
     this.platform.ready().then(()=>{
-      this.router.navigateByUrl('splash')
+      this.router.navigateByUrl('/oquee')
     });
   }
 }
