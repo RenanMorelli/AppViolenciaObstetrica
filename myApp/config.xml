@@ -3,7 +3,7 @@
     <name>VOZ</name>
     <description>Aplicativo com tema e informações sobre Violência Obstétrica</description>
     <author email="renanmorelli@hotmail.com" href="http://ionicframework.com/">Renan Bobadilla Morelli</author>
-    <content original-src="index.html" src="http://localhost:8100" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
