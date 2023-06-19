@@ -42,6 +42,10 @@ const routes: Routes = [
   {
     path: 'slide',
     loadChildren: () => import('./slide/slide.module').then( m => m.SlidePageModule)
+  },
+  {
+    path: 'avaliar',
+    loadChildren: () => import('./avaliar/avaliar.module').then( m => m.AvaliarPageModule)
   }
 ];
 

@@ -16,6 +16,7 @@ export class AppComponent {
     { title: 'Exemplos da violência', url: '/exemplos', icon: 'warning' },
     { title: 'Como me prevenir', url: '/prevenir', icon: 'hand-left' },
     { title: 'Como Denunciar', url: '/contatos', icon: 'call' },
+    { title: 'Avaliar Instituição', url: '/avaliar', icon: 'pencil' },
   ];
   
   constructor(private router : Router, private platform : Platform) {
