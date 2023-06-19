@@ -22,9 +22,9 @@
     height: 50px;
     }
     
-    #imagemwarning{
-    width: 35px;
-    height: 35px;
+    #imagemdoctor{
+    width: 40px;
+    height: 40px;
     margin-top: 10px;
     }
     
@@ -54,7 +54,6 @@
     
     #container a {
       text-decoration: none;
-      
     }
     
     hr{
@@ -63,11 +62,15 @@
       margin-top: 5%;
       margin-bottom: 12%;
     }
-    
-    li{
-      text-align: justify; 
-      text-indent: 1.5em;
-      margin-right: 5%;
-      margin-bottom: 3%;
-      font-family: nunito;
-    }
+
+    #botao180{
+        // background-color: rgba(226, 103, 140, 0.858);
+         margin-top: 30px;
+         color: #C09984;
+         border-radius: 25%;
+         margin-top: 4%;
+         background-color: white;
+         border: 1px solid #C09984;
+         margin: 0px;
+         
+       }
