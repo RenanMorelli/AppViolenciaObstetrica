@@ -71,21 +71,22 @@ ion-app{
 
 ion-toolbar{
   
-  --background:linear-gradient(to right,#DDB7AB,#DDB7AB,#C09984);
+ // --background:linear-gradient(to right,#C09984, #DDB7AB,#DDB7AB);
+ --background: #C09984; 
 }
 
 #menu{
  
-  --background:linear-gradient(to right,#DDB7AB,#DDB7AB,#C09984);
+  --background:linear-gradient(to right,#C09984, #DDB7AB,#DDB7AB);
   color: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
-  --color-hover:rgb(255, 255, 255);
+  --color-hover:rgb(255, 255, 255); 
   font-family: nunito;
   font-size:18px; 
 }
 
 #menu.selected{
-  --background:linear-gradient(to right,#EBE4DC ,#DDB7AB,#C09984);
+  --background:linear-gradient(to right,#C09984, #EBE4DC ,#DDB7AB);
   color: rgb(255, 255, 255);
 }
 
