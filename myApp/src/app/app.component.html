@@ -3,10 +3,10 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content id="menu">
         <ion-list id="inbox-list">
-          <ion-list-header id="menutitle">VIOLÊNCIA OBSTÉTRICA ZERO</ion-list-header>
+          <ion-list-header id="menutitle" style="font-family: faberge; font-weight: bold;">VIOLÊNCIA OBSTÉTRICA ZERO</ion-list-header>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
 
-            <ion-item id="menu" routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
+            <ion-item id="menu"  routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
               <ion-icon id="escritasMenu" style="font-size: 24px;" slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
               <ion-label  id="escritasMenu">{{ p.title }}</ion-label>
             </ion-item>
