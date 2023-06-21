@@ -4,10 +4,6 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
 
   {
-    path: 'login',
-    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
-  },
-  {
     path: 'tiposdevo',
     loadChildren: () => import('./tiposdevo/tiposdevo.module').then( m => m.TiposdevoPageModule)
   },
@@ -34,14 +30,6 @@ const routes: Routes = [
   {
     path: 'contatos',
     loadChildren: () => import('./contatos/contatos.module').then( m => m.ContatosPageModule)
-  },
-  {
-    path: 'splash',
-    loadChildren: () => import('./splash/splash.module').then( m => m.SplashPageModule)
-  },
-  {
-    path: 'slide',
-    loadChildren: () => import('./slide/slide.module').then( m => m.SlidePageModule)
   },
   {
     path: 'avaliar',
