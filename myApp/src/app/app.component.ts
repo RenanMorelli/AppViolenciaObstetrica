@@ -15,7 +15,7 @@ export class AppComponent {
     { title:  'Meus direitos', url: '/direitos', icon: 'book' },
     { title: 'Exemplos da violência', url: '/exemplos', icon: 'warning' },
     { title: 'Como me prevenir', url: '/prevenir', icon: 'hand-left' },
-    { title: 'Como Denunciar', url: '/contatos', icon: 'call' },
+    { title: 'Registre seu caso', url: '/contatos', icon: 'call' },
     { title: 'Avaliar Instituição', url: '/avaliar', icon: 'pencil' },
   ];
   
